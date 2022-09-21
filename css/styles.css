@@ -1,0 +1,305 @@
+/*****************Tag Selectors*****************/
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 400%;
+    color: #52b7b7;
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    color: #52b7b7;
+    font-size: 350%;
+}
+
+h3 {
+    color: #11999E;
+    font-size: 200%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************************************************/
+/*****************Class Selectors*****************/
+
+.top-container {
+    background-color: #CBF1F5;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    z-index: 0;
+}
+
+.middle-container {
+    background-color: #e6f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+/*************************************************/
+/*****************Top Links Line*****************/
+
+
+.top-links {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+}
+
+.top-left-links {
+    position: absolute;
+    left: 5%;
+}
+
+.top-right-links {
+    position: absolute;
+    right: 3%;
+    margin-top: 2%;
+}
+
+.top-link-imgs {
+    width: 75px;
+    margin: 2px;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5;
+    border-radius: 100%;
+}
+
+.top-link-imgs:hover {
+    /*border: 2px solid white;*/
+    background-color: #52b7b7;
+}
+
+.upper-link-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #CBF1F5;
+    padding: 10px;
+    margin: 5px;
+    border: solid #ffffff 3px;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.upper-link-btn:hover {
+    background: #52b7b7;
+}
+
+/*************************************************/
+/*****************Intro Part*****************/
+
+.top-right-cloud {
+    position: fixed;
+    right: 250px;
+    top: 100px;
+    z-index: -1;
+}
+
+.headline {
+    font-size: 400%;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.headline-name {
+    font-size: 115%;
+    font-weight: bold;
+}
+
+/*
+.pro-underlined {
+    text-decoration: underline wavy 3px;
+}*/
+
+.top-left-cloud {
+    position: fixed;
+    left: 250px;
+    top: 250px;
+    z-index: -1;
+}
+
+.arrow-gif {
+    width: 8%;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.finger-gif {
+    width: 5%;
+    position: absolute;
+    bottom: 0;
+    right: 48%;
+}
+
+.right-middle-cloud {
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+.left-middle-cloud {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+    /*border: 2px solid rgb(227, 200, 200);*/
+}
+
+.code-gif {
+    height: 120px;
+    width: 120px;
+}
+
+.project-img {
+    width: 30%;
+    border-radius: 10%;
+}
+
+.project-img-odd {
+    float: left;
+    margin-right: 30px;
+}
+
+.project-img-even {
+    float: right;
+    margin-left: 30px;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-headline {
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.project-headline:hover {
+    color: #9b78d0;
+}
+
+.dotted-hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(205, 202, 202);
+    border-width: 10px;
+    width: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.project-row {
+    width: 60%;
+    margin: 10% auto 10% auto;
+    text-align: left;
+    line-height: 200%;
+    font-size: 120%;
+}
+
+.project-odd-row-inner-bullet {
+    margin-left: 32%;
+}
+
+.contact-me-img {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 4%;
+}
+
+.contact-btn {
+    background: #17baaf;
+    background-image: -webkit-linear-gradient(top, #17baaf, #74dee8);
+    background-image: -moz-linear-gradient(top, #17baaf, #74dee8);
+    background-image: -ms-linear-gradient(top, #17baaf, #74dee8);
+    background-image: -o-linear-gradient(top, #17baaf, #74dee8);
+    background-image: linear-gradient(to bottom, #17baaf, #74dee8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+}
+
+.contact-btn:hover {
+    background: #65b5e6;
+    background-image: -webkit-linear-gradient(top, #65b5e6, #3498db);
+    background-image: -moz-linear-gradient(top, #65b5e6, #3498db);
+    background-image: -ms-linear-gradient(top, #65b5e6, #3498db);
+    background-image: -o-linear-gradient(top, #65b5e6, #3498db);
+    background-image: linear-gradient(to bottom, #65b5e6, #3498db);
+}
+
+.footer-link-btn {
+    margin: auto 20px auto 20px;
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #11999E;
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+}
+
+.footer-link-btn:hover {
+    background: #c3dceb;
+    background-image: -webkit-linear-gradient(top, #c3dceb, #7bbce8);
+    background-image: -moz-linear-gradient(top, #c3dceb, #7bbce8);
+    background-image: -ms-linear-gradient(top, #c3dceb, #7bbce8);
+    background-image: -o-linear-gradient(top, #c3dceb, #7bbce8);
+    background-image: linear-gradient(to bottom, #c3dceb, #7bbce8);
+    font-size: 21px;
+}
+
+.credits {
+    margin-top: 5%;
+    color: white;
+    font-size: 150%;
+}
+
+/*.mountain {
+}*/
+
+/**********************************************/
+/*****************ID Selectors*****************/
