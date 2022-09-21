@@ -1,2 +1,4 @@
-# CV
-My personal website
+# Personal_website
+### My personal website, contains general information, personal projects and usefull links.
+### Using HTML and CSS, the website has a modern looking.
+
