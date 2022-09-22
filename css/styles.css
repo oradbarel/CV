@@ -36,23 +36,23 @@ a {
 .top-container {
     background-color: #CBF1F5;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 10px;
+    padding-top: 7%;
+    padding-bottom: 1%;
     z-index: 0;
 }
 
 .middle-container {
     background-color: #e6f8f8;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 7%;
+    padding-bottom: 7%;
     position: relative;
     z-index: 1;
 }
 
 .bottom-container {
     background-color: #66BFBF;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 7%;
+    padding-bottom: 7%;
     position: relative;
     z-index: 1;
 }
@@ -116,8 +116,15 @@ a {
 
 .top-right-cloud {
     position: fixed;
-    right: 250px;
-    top: 100px;
+    right: 20%;
+    top: 15%;
+    z-index: -1;
+}
+
+.top-left-cloud {
+    position: fixed;
+    left: 20%;
+    top: 35%;
     z-index: -1;
 }
 
@@ -130,18 +137,6 @@ a {
 .headline-name {
     font-size: 115%;
     font-weight: bold;
-}
-
-/*
-.pro-underlined {
-    text-decoration: underline wavy 3px;
-}*/
-
-.top-left-cloud {
-    position: fixed;
-    left: 250px;
-    top: 250px;
-    z-index: -1;
 }
 
 .arrow-gif {
